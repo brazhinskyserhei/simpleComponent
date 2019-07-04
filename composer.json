@@ -1,0 +1,27 @@
+{
+  "name": "brazhinskyserhei/simple",
+  "description": "Simple package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Serhei Brazhenko",
+      "email": "brazhenkosergey@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Brazhinskyserhei\\Simple\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Brazhinskyserhei\\Simple\\SimpleServiceProvider"
+      ],
+      "aliases": {
+        "Simple": "Brazhinskyserhei\\Simple\\Simple"
+      }
+    }
+  }
+}
